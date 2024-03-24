@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url(imagens/fundo.jpg);
+    background-size: cover;
+}
+
+header {
+    width: 30%;
+    height: 700px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: none;
+}
+
+nav a, section .centro h2 {
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #ccc;
+    margin: 50px;
+    display: block;
+}
+
+header nav a:hover {
+    color: red;
+}
+
+header aside .img {
+    width: 20%;
+    float: inline-start;
+}
+
+.centro p {
+    color: #ccc;
+    font-family: Tahoma;
+    width: 50%;
+    margin: 50px;
+    text-align: justify;
+}
+
+#contato a {
+    text-decoration: none;
+    color: #999;
+}
+
+#contato a:hover {
+    color: red;
+}
+
+.centro {
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+}
+
+.grid .coluna {
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.grid .coluna img {
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.centro .coluna2 img {
+    width: 150px;
+    margin: 10px;
+}
+
+footer {
+    position: fixed;
+    padding: 30px;
+    bottom: 0%;
+    background-color: black;
+    color: #ccc;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Tahoma;
+}
