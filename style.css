@@ -10,7 +10,7 @@ body {
 
 header {
     width: 30%;
-    height: 700px;
+    height: 100vh;
     padding: 15px;
     box-sizing: border-box;
     margin: none;
