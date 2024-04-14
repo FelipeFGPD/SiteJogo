@@ -2,36 +2,86 @@
 <html lang="pt-br">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Contato</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="imagens/icone.png">
+    <script src="https://kit.fontawesome.com/b3b83db5db.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+
+    <header>
+        <div class="voltar">
+            <a href="index.html" title="Ínicio">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+        </div>
+    </header>
+
     <main>
-        <section id="contato">
-            <div class="centro">
-                <h2 class="centro">Entre em Contato</h2>
+
+        <section>
+            <div class="contato">
+                <h2>Entre em Contato</h2>
+                <form name="formContato">
+                    <label for="nome">Digite seu nome completo:</label>
+                    <input type="text" name="nome" id="nome" required>
+                    <br>
+                    <label for="email">Digite seu e-mail:</label>
+                    <input type="email" name="email" id="email" required>
+                    <br>
+                    <label for="mensagem">Digite sua mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" required rows="5"></textarea>
+                    <br>
+                    <button type="submit">
+                        Enviar Mensagem
+                    </button>
+
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <div class="social">
                 <p>
-                    <strong>E-mail:</strong>
-                    <a href="fgp.damasio@gmail.com" title="Email">fgp.damasio@gmail.com</a>
+                    <a href="http://gmail.com" title="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
 
-                <br><strong>GitHub:</strong>
-                    <a href="FelipeFGPD" title="GitHub">FelipeFGPD</a>
+                    <a href="http://github.com/FelipeFGPD" title="GitHub">
+                        <i class="fa-brands fa-square-github"></i>
+                    </a>
 
-                <br><strong>Facebook:</strong>
-                    <a href="damasio.felipe" title="Facebook">damasio.felipe</a>
+                    <a href="http://facebook.com/damasio.felipe" title="Facebook">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
 
-                <br><strong>Instagram:</strong>
-                    <a href="felipe.gpd" title="Instagram">felipe.gpd</a>
+                    <a href="http://instgram.com/felipe.gpd" title="Instagram">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
                 </p>
             </div>
         </section>
+
+        
+
     </main>
+
 </body>
+
 <footer>
-    <p><strong>Desenvolvido por Felipe Damasio</strong></p>
+
+    <p class="autor">
+        <strong>
+            Desenvolvido por Felipe Damasio
+            <br>Todos os Direitos Reservados <i class="fa-regular fa-copyright"></i>
+        </strong>
+    </p>
+
 </footer>
 
 </html>

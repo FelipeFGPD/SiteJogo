@@ -1,0 +1,26 @@
+.ficha h2, .trilha h2 {
+    color: var(--amarelo);
+    font-size: 40px;
+    padding: 20px;
+
+}
+
+.ficha p, .trilha a {
+    color: var(--amarelo);
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.trilha {
+    margin-top: 100px;
+}
+
+.ficha i, .trilha i {
+    margin-right: 10px;
+}
+
+.trilha a:hover {
+    color: var(--cinza);
+}

@@ -1,0 +1,19 @@
+.inicial a {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--amarelo);
+    text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    width: 17%;
+}
+
+.inicial i {
+    padding-right: 20px;
+}
+
+.inicial a:hover, .inicial i:hover {
+    color: var(--cinza);
+}

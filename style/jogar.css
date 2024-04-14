@@ -1,0 +1,24 @@
+.botao {
+    background-color: var(--amarelo);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--preto);
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 5px;
+
+
+}
+
+.botao:hover {
+    background-color: var(--cinza);
+}
+
+.aba {
+    color: var(--preto);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--fonte);
+    font-variant: small-caps;
+}
