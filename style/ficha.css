@@ -8,13 +8,13 @@
 .ficha p, .trilha a {
     color: var(--amarelo);
     padding: 20px;
-    line-height: 1.5;
+    line-height: 2;
     font-size: 20px;
     text-decoration: none;
 }
 
 .trilha {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .ficha i, .trilha i {

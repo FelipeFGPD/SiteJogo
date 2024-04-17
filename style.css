@@ -13,8 +13,9 @@
     --cinza: #CCC;
     --amarelo: #FFFF00;
     --preto: #111;
-    --fonte: "Platypi"
+    --fonte: "Platypi", sans-serif;
 }
+
 
 .voltar i {
     color: var(--amarelo);
@@ -24,14 +25,13 @@
 
 .voltar i:hover {
     color: var(--cinza);
-} 
+}
 
 body {
     background: url(imagens/fundo.jpg);
     background-size: cover;
     font-family: var(--fonte);
     font-variant: small-caps;
-    height: 100vh;
 }
 
 footer {
@@ -48,6 +48,9 @@ footer {
     text-align: center;
 }
 
-@media (width<= 600px) {
-
+@media (width<=600px) {
+    body {
+        background-image: none;
+        background-color: var(--preto)
+    }
 }
