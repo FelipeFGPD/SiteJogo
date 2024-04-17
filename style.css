@@ -48,7 +48,7 @@ footer {
     text-align: center;
 }
 
-@media (width<=600px) {
+@media (width <=600px) {
     body {
         background-image: none;
         background-color: var(--preto)
