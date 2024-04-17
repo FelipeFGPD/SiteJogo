@@ -17,3 +17,11 @@
 .inicial a:hover, .inicial i:hover {
     color: var(--cinza);
 }
+
+@media (width <= 600px) {
+    .inicial a  {
+        width: 100%;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+}

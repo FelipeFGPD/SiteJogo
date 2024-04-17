@@ -52,3 +52,18 @@ button {
 button:hover {
     background-color: var(--cinza);
 }
+
+@media (width <= 600px) {
+    input,
+    textarea {
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .social  {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding-top: 50%;
+    }
+}

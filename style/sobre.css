@@ -13,7 +13,7 @@
     text-align: justify;
 }
 
-.fases .img {
+.fases img {
     width: 23%;
     border-radius: 20px;
     box-shadow: 10px 10px 10px -5px var(--cinza);
@@ -29,7 +29,36 @@
     margin-bottom: 100px;
 }
 
-.personagem .img {
+.personagem img {
     width: 200px;
     margin-bottom: 100px;
+    display: flex;
+    justify-content: left;
+}
+
+@media (width <= 600px) {
+    .sobre h2 {
+        text-align: center;
+    }
+
+    .sobre p {
+        width: 100%;
+        text-align: justify;
+        box-sizing: border-box;
+    }
+    
+    .fases {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fases img, .personagem img {
+        width: 100%;
+    }
+
+    .personagem img {
+        padding-bottom: 60px;
+    }
+
 }

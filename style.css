@@ -31,6 +31,7 @@ body {
     background-size: cover;
     font-family: var(--fonte);
     font-variant: small-caps;
+    height: 100vh;
 }
 
 footer {
@@ -45,4 +46,8 @@ footer {
     font-weight: bold;
     line-height: 1.5;
     text-align: center;
+}
+
+@media (width<= 600px) {
+
 }

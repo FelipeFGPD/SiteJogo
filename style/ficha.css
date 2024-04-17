@@ -24,3 +24,12 @@
 .trilha a:hover {
     color: var(--cinza);
 }
+
+@media (width <=600px) {
+    .ficha h2, .trilha h2, .ficha p, .trilha  {
+        text-align: center;
+        padding-top: 5%;
+        line-height: 2;
+    }
+
+}

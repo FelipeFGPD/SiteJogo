@@ -22,3 +22,13 @@
     font-family: var(--fonte);
     font-variant: small-caps;
 }
+
+@media (width <=600px) {
+    .botao {
+        display: none;
+    }
+
+    .jogo {
+        margin-top: 130px;
+    }
+}
